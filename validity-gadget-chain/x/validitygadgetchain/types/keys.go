@@ -15,6 +15,10 @@ const (
 
 	// MemStoreKey defines the in-memory store key
 	MemStoreKey = "mem_validitygadgetchain"
+
+	// Keep track of the index of snapshot-proposals
+	SnapshotProposalKey      = "Snapshot-Proposal-value-"
+	SnapshotProposalCountKey = "Snapshot-Proposal-count-"
 )
 
 func KeyPrefix(p string) []byte {

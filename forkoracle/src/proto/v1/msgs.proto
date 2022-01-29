@@ -1,0 +1,32 @@
+syntax = "proto3";
+package oracle.v1;
+import "annotations.proto";
+option go_package = "github.com/Gravity-Bridge/Gravity-Bridge/module/x/gravity/types";
+
+// Msg defines the state transitions possible within gravity
+service Msg {
+  rpc SendToCosmosClaim(MsgSendToCosmosClaim) returns (MsgSendToCosmosClaimResponse) {
+    option (google.api.http).post = "/gravity/v1/send_to_cosmos_claim";
+  }
+}
+
+    
+// MsgSendToCosmosClaim
+// When more than 66% of the active validator set has
+// claimed to have seen the deposit enter the ethereum blockchain coins are
+// issued to the Cosmos address in question
+// -------------
+message MsgSendToCosmosClaim {
+    uint64 event_nonce    = 1;
+    uint64 block_height   = 2;
+    string token_contract = 3;
+    string amount         = 4 [
+      (gogoproto.customtype) = "github.com/cosmos/cosmos-sdk/types.Int",
+      (gogoproto.nullable)   = false
+    ];
+    string ethereum_sender = 5;
+    string cosmos_receiver = 6;
+    string orchestrator    = 7;
+  }
+  
+  message MsgSendToCosmosClaimResponse {}
