@@ -3,11 +3,36 @@
 
 ## Get started
 
+Install starport first:
+
+```
+curl https://get.starport.com/starport! | bash
+```
+
+Then start the chain:
+
 ```
 starport chain serve
 ```
 
 `serve` command installs dependencies, builds, initializes, and starts your blockchain in development.
+
+### Validity-Gadget Specific Commands
+
+You will need to open another terminal and run following commands.
+
+Add a snapshot-proposal (dummy):
+
+```
+validity-gadget-chaind tx validitygadgetchain snapshot-proposal foo bar --from alice --chain-id validitygadgetchain
+```
+
+Query snapshot-proposals:
+
+```
+validity-gadget-chaind q validitygadgetchain snapshot-proposals
+```
+
 
 ### Configure
 
