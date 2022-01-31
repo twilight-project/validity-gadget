@@ -140,6 +140,21 @@ export class Api extends HttpClient {
          * No description
          *
          * @tags Query
+         * @name QuerySnapshotProposals
+         * @summary Queries a list of SnapshotProposals items.
+         * @request GET:/twilight-project/validitygadgetchain/validitygadgetchain/snapshot_proposals
+         */
+        this.querySnapshotProposals = (query, params = {}) => this.request({
+            path: `/twilight-project/validitygadgetchain/validitygadgetchain/snapshot_proposals`,
+            method: "GET",
+            query: query,
+            format: "json",
+            ...params,
+        });
+        /**
+         * No description
+         *
+         * @tags Query
          * @name QueryParams
          * @summary Parameters queries the parameters of the module.
          * @request GET:/twilightproject/validitygadgetchain/validitygadgetchain/params

@@ -4,9 +4,11 @@ import { SpVuexError } from '@starport/vuex'
 
 import { Params } from "./module/types/validitygadgetchain/params"
 import { Proposal } from "./module/types/validitygadgetchain/proposal"
+import { QuerySnapshotProposalRequest } from "./module/types/validitygadgetchain/query"
+import { QuerySnapshotProposalResponse } from "./module/types/validitygadgetchain/query"
 
 
-export { Params, Proposal };
+export { Params, Proposal, QuerySnapshotProposalRequest, QuerySnapshotProposalResponse };
 
 async function initTxClient(vuexGetters) {
 	return await txClient(vuexGetters['common/wallet/signer'], {
@@ -45,10 +47,13 @@ function getStructure(template) {
 const getDefaultState = () => {
 	return {
 				Params: {},
+				SnapshotProposals: {},
 				
 				_Structure: {
 						Params: getStructure(Params.fromPartial({})),
 						Proposal: getStructure(Proposal.fromPartial({})),
+						QuerySnapshotProposalRequest: getStructure(QuerySnapshotProposalRequest.fromPartial({})),
+						QuerySnapshotProposalResponse: getStructure(QuerySnapshotProposalResponse.fromPartial({})),
 						
 		},
 		_Registry: registry,
@@ -82,6 +87,12 @@ export default {
 						(<any> params).query=null
 					}
 			return state.Params[JSON.stringify(params)] ?? {}
+		},
+				getSnapshotProposals: (state) => (params = { params: {}}) => {
+					if (!(<any> params).query) {
+						(<any> params).query=null
+					}
+			return state.SnapshotProposals[JSON.stringify(params)] ?? {}
 		},
 				
 		getTypeStructure: (state) => (type) => {
@@ -134,6 +145,32 @@ export default {
 				return getters['getParams']( { params: {...key}, query}) ?? {}
 			} catch (e) {
 				throw new SpVuexError('QueryClient:QueryParams', 'API Node Unavailable. Could not perform query: ' + e.message)
+				
+			}
+		},
+		
+		
+		
+		
+		 		
+		
+		
+		async QuerySnapshotProposals({ commit, rootGetters, getters }, { options: { subscribe, all} = { subscribe:false, all:false}, params, query=null }) {
+			try {
+				const key = params ?? {};
+				const queryClient=await initQueryClient(rootGetters)
+				let value= (await queryClient.querySnapshotProposals(query)).data
+				
+					
+				while (all && (<any> value).pagination && (<any> value).pagination.next_key!=null) {
+					let next_values=(await queryClient.querySnapshotProposals({...query, 'pagination.key':(<any> value).pagination.next_key})).data
+					value = mergeResults(value, next_values);
+				}
+				commit('QUERY', { query: 'SnapshotProposals', key: { params: {...key}, query}, value })
+				if (subscribe) commit('SUBSCRIBE', { action: 'QuerySnapshotProposals', payload: { options: { all }, params: {...key},query }})
+				return getters['getSnapshotProposals']( { params: {...key}, query}) ?? {}
+			} catch (e) {
+				throw new SpVuexError('QueryClient:QuerySnapshotProposals', 'API Node Unavailable. Could not perform query: ' + e.message)
 				
 			}
 		},

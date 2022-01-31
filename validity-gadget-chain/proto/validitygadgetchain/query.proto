@@ -4,6 +4,7 @@ package twilightproject.validitygadgetchain.validitygadgetchain;
 import "gogoproto/gogo.proto";
 import "google/api/annotations.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
+import "validitygadgetchain/proposal.proto";
 import "validitygadgetchain/params.proto";
 // this line is used by starport scaffolding # 1
 
@@ -15,7 +16,12 @@ service Query {
   rpc Params(QueryParamsRequest) returns (QueryParamsResponse) {
     option (google.api.http).get = "/twilightproject/validitygadgetchain/validitygadgetchain/params";
   }
-  // this line is used by starport scaffolding # 2
+  // Queries a list of SnapshotProposals items.
+	rpc SnapshotProposals(QuerySnapshotProposalsRequest) returns (QuerySnapshotProposalsResponse) {
+		option (google.api.http).get = "/twilight-project/validitygadgetchain/validitygadgetchain/snapshot_proposals";
+	}
+
+// this line is used by starport scaffolding # 2
 }
 
 // QueryParamsRequest is request type for the Query/Params RPC method.
@@ -25,6 +31,26 @@ message QueryParamsRequest {}
 message QueryParamsResponse {
   // params holds all the parameters of this module.
   Params params = 1 [(gogoproto.nullable) = false];
+}
+
+message QuerySnapshotProposalsRequest {
+  // Adding pagination to request
+  cosmos.base.query.v1beta1.PageRequest pagination = 1;
+}
+
+message QuerySnapshotProposalsResponse {
+  // Returning a list of proposals
+  repeated Proposal Proposal = 1;
+  // Adding pagination to response
+  cosmos.base.query.v1beta1.PageResponse pagination = 2;
+}
+
+message QuerySnapshotProposalRequest {
+}
+
+message QuerySnapshotProposalResponse {
+  string iteration = 1;
+  string logsnap = 2;
 }
 
 // this line is used by starport scaffolding # 3
