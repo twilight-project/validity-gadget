@@ -24,7 +24,7 @@ func (k Keeper) GetSnapshotProposalCount(ctx sdk.Context) uint64 {
 }
 
 func (k Keeper) SetSnapshotProposalCount(ctx sdk.Context, count uint64) {
-	// Get the store using storeKey (which is "blog") and SnapshotProposalCountKey
+	// Get the store using storeKey and SnapshotProposalCountKey
 	store := prefix.NewStore(ctx.KVStore(k.storeKey), []byte(types.SnapshotProposalCountKey))
 	// Convert the SnapshotProposalCountKey to bytes
 	byteKey := []byte(types.SnapshotProposalCountKey)
