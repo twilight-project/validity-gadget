@@ -33,7 +33,6 @@ Query snapshot-proposals:
 validity-gadget-chaind q validitygadgetchain snapshot-proposals
 ```
 
-
 ### Configure
 
 Your blockchain in development can be configured with `config.yml`. To learn more, see the [Starport docs](https://docs.starport.com).

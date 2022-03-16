@@ -82,15 +82,4 @@ func send_transaction(chaintip *ChainTip) {
 	// print response from broadcasting a transaction
 	fmt.Print("MsgSnapshotProposal:\n\n")
 	fmt.Println(txResp)
-
-	queryClient := types.NewQueryClient(cosmos.Context)
-
-	queryResp, err := queryClient.SnapshotProposals(context.Background(), &types.QuerySnapshotProposalsRequest{})
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	// print response from querying all the posts
-	fmt.Print("\n\nAll posts:\n\n")
-	fmt.Println(queryResp)
 }

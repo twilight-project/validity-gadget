@@ -1,0 +1,500 @@
+   57  cargo test test_dsl_spend_1_1 -- --nocapture
+   58  cargo test test_dsl_spend_1_1 -- --nocapture
+   59  cargo test test_dsl_spend_1_1 -- --nocapture
+   60  cargo test test_dsl_spend_1_1 -- --nocapture
+   61  cargo test test_dsl_spend_1_1 -- --nocapture
+   62  cargo test test_dsl_spend_1_1 -- --nocapture
+   63  cargo test test_dsl_spend_1_1 -- --nocapture
+   64  cargo test test_dsl_spend_1_1 -- --nocapture
+   65  cargo test test_dsl_spend_1_1 -- --nocapture
+   66  cargo test test_dsl_spend_1_1 -- --nocapture
+   67  cargo test test_dsl_spend_1_1 -- --nocapture
+   68  cargo test test_dsl_spend_1_1 -- --nocapture
+   69  cargo test test_dsl_spend_1_1 -- --nocapture
+   70  cargo test test_dsl_spend_1_1 -- --nocapture
+   71  cargo test test_dsl_spend_1_1 -- --nocapture
+   72  cargo test test_dsl_spend_1_1 -- --nocapture
+   73  cargo test test_dsl_spend_1_1 -- --nocapture
+   74  cargo test test_dsl_spend_1_1 -- --nocapture
+   75  cargo test test_dsl_spend_1_1 -- --nocapture
+   76  cargo test test_dsl_spend_1_1 -- --nocapture
+   77  cargo test test_dsl_spend_1_1 -- --nocapture
+   78  cargo test test_dsl_spend_1_1 -- --nocapture
+   79  cargo test test_dsl_spend_1_1 -- --nocapture
+   80  cargo test test_dsl_spend_1_1 -- --nocapture
+   81  cargo test test_dsl_spend_1_1 -- --nocapture
+   82  cargo test test_dsl_spend_1_1 -- --nocapture
+   83  cargo test test_dsl_spend_1_1 -- --nocapture
+   84  cargo test test_dsl_spend_1_1 -- --nocapture
+   85  cargo test test_dsl_spend_1_1 -- --nocapture
+   86  cargo test test_dsl_spend_1_1 -- --nocapture
+   87  cargo test test_dsl_spend_1_1 -- --nocapture
+   88  cargo test test_dsl_spend_1_1 -- --nocapture
+   89  cargo test test_dsl_spend_1_1 -- --nocapture
+   90  cargo test test_dsl_spend_1_1 -- --nocapture
+   91  cargo test test_dsl_spend_1_1 -- --nocapture
+   92  cargo test test_dsl_spend_1_1 -- --nocapture
+   93  cargo test test_dsl_spend_1_1 -- --nocapture
+   94  cargo test test_dsl_spend_1_1 -- --nocapture
+   95  cargo test test_dsl_spend_1_1 -- --nocapture
+   96  cargo test test_dsl_spend_1_1 -- --nocapture
+   97  cargo test test_dsl_spend_1_1 -- --nocapture
+   98  cargo test test_dsl_spend_1_1 -- --nocapture
+   99  cargo test test_dsl_spend_1_1 -- --nocapture
+  100  cargo test test_dsl_spend_1_1 -- --nocapture
+  101  cargo test test_dsl_spend_1_1 -- --nocapture
+  102  cargo test test_dsl_spend_1_1 -- --nocapture
+  103  cargo test test_dsl_spend_1_1 -- --nocapture
+  104  cargo test test_dsl_spend_1_1 -- --nocapture
+  105  cargo test test_dsl_spend_1_1 -- --nocapture
+  106  cargo test test_dsl_spend_1_1 -- --nocapture
+  107  cargo test test_dsl_spend_1_1 -- --nocapture
+  108  cargo test test_dsl_spend_1_1 -- --nocapture
+  109  cargo test test_dsl_spend_1_1 -- --nocapture
+  110  cargo test test_dsl_spend_1_1 -- --nocapture
+  111  cargo test test_dsl_spend_1_1 -- --nocapture
+  112  cargo test test_dsl_spend_1_1 -- --nocapture
+  113  cargo test test_dsl_spend_1_1 -- --nocapture
+  114  cargo test test_dsl_spend_1_1 -- --nocapture
+  115  cargo test test_dsl_spend_1_1 -- --nocapture
+  116  cargo test test_dsl_spend_1_1 -- --nocapture
+  117  cargo test test_dsl_spend_1_1 -- --nocapture
+  118  cargo test test_dsl_spend_1_1 -- --nocapture
+  119  cargo test test_dsl_spend_1_1 -- --nocapture
+  120  cargo test test_dsl_spend_1_1 -- --nocapture
+  121  cargo test test_dsl_spend_1_1 -- --nocapture
+  122  cargo test test_dsl_spend_1_1 -- --nocapture
+  123  cargo test test_dsl_spend_1_1 -- --nocapture
+  124  cargo test test_dsl_spend_1_1 -- --nocapture
+  125  cargo test test_dsl_spend_1_1 -- --nocapture
+  126  cargo test test_dsl_spend_1_1 -- --nocapture
+  127  cargo test test_dsl_spend_1_1 -- --nocapture
+  128  cargo test test_dsl_spend_1_1 -- --nocapture
+  129  cargo test test_dsl_spend_1_1 -- --nocapture
+  130  cargo test test_dsl_spend_1_1 -- --nocapture
+  131  cargo test test_dsl_spend_1_1 -- --nocapture
+  132  cargo test test_dsl_spend_1_1 -- --nocapture
+  133  cargo test test_dsl_spend_1_1 -- --nocapture
+  134  cargo test test_dsl_spend_1_1 -- --nocapture
+  135  cargo test test_dsl_spend_1_1 -- --nocapture
+  136  cargo test test_dsl_spend_1_1 -- --nocapture
+  137  cargo test test_dsl_spend_1_1 -- --nocapture
+  138  cargo test test_dsl_spend_1_1 -- --nocapture
+  139  cargo test test_dsl_spend_1_1 -- --nocapture
+  140  cargo test test_dsl_spend_1_1 -- --nocapture
+  141  cargo test test_dsl_spend_1_1 -- --nocapture
+  142  cargo test test_dsl_spend_1_1 -- --nocapture
+  143  cargo test test_dsl_spend_1_1 -- --nocapture
+  144  cargo test test_dsl_spend_1_1 -- --nocapture
+  145  cargo test test_dsl_spend_1_1 -- --nocapture
+  146  cargo test test_dsl_spend_1_1 -- --nocapture
+  147  cargo test test_dsl_spend_1_1 -- --nocapture
+  148  cargo test test_dsl_spend_1_1 -- --nocapture
+  149  cargo test test_dsl_spend_1_1 -- --nocapture
+  150  cargo test test_dsl_spend_1_1 -- --nocapture
+  151  cargo test test_dsl_spend_1_1 -- --nocapture
+  152  cargo test test_dsl_spend_1_1 -- --nocapture
+  153  cargo test test_dsl_spend_1_1 -- --nocapture
+  154  cargo test test_dsl_spend_1_1 -- --nocapture
+  155  cargo test test_dsl_spend_1_1 -- --nocapture
+  156  cargo test test_dsl_spend_1_1 -- --nocapture
+  157  cargo test test_dsl_spend_1_1 -- --nocapture
+  158  cargo test test_dsl_spend_1_1 -- --nocapture
+  159  cargo test test_dsl_spend_1_1 -- --nocapture
+  160  cargo test test_dsl_spend_1_1 -- --nocapture
+  161  cargo test test_dsl_spend_1_1 -- --nocapture
+  162  cargo test test_dsl_spend_1_1 -- --nocapture
+  163  cargo test test_dsl_spend_1_1 -- --nocapture
+  164  cargo test test_dsl_spend_1_1 -- --nocapture
+  165  cargo test test_dsl_spend_1_1 -- --nocapture
+  166  cargo test test_dsl_spend_1_1 -- --nocapture
+  167  cargo test test_dsl_spend_1_1 -- --nocapture
+  168  cargo test test_dsl_spend_1_1 -- --nocapture
+  169  cargo test test_dsl_spend_1_1 -- --nocapture
+  170  cargo test test_dsl_spend_1_1 -- --nocapture
+  171  cargo test test_dsl_spend_1_1 -- --nocapture
+  172  cargo test test_dsl_spend_1_1 -- --nocapture
+  173  cargo test test_dsl_spend_1_1 -- --nocapture
+  174  cargo test test_dsl_spend_1_1 -- --nocapture
+  175  cargo test test_dsl_spend_1_1 -- --nocapture
+  176  cargo test test_dsl_spend_1_1 -- --nocapture
+  177  cargo test test_dsl_spend_1_1 -- --nocapture
+  178  cargo test test_dsl_spend_1_1 -- --nocapture
+  179  cargo test test_dsl_spend_1_1 -- --nocapture
+  180  cargo test test_dsl_spend_1_1 -- --nocapture
+  181  cargo test test_dsl_spend_1_1 -- --nocapture
+  182  cargo test test_dsl_spend_1_1 -- --nocapture
+  183  cargo test test_dsl_spend_1_1 -- --nocapture
+  184  cargo test test_dsl_spend_1_1 -- --nocapture
+  185  cargo test test_dsl_spend_1_1 -- --nocapture
+  186  cargo test test_dsl_spend_1_1 -- --nocapture
+  187  cargo test test_dsl_spend_1_1 -- --nocapture
+  188  cargo test test_dsl_spend_1_1 -- --nocapture
+  189  cargo test test_dsl_spend_1_1 -- --nocapture
+  190  cargo test test_dsl_spend_1_1 -- --nocapture
+  191  cargo test test_dsl_spend_1_1 -- --nocapture
+  192  cargo test test_dsl_spend_1_1 -- --nocapture
+  193  cargo test test_dsl_spend_1_1 -- --nocapture
+  194  cargo test test_dsl_spend_1_1 -- --nocapture
+  195  cargo test test_dsl_spend_1_1 -- --nocapture
+  196  cargo test test_dsl_spend_1_1 -- --nocapture
+  197  cargo test test_dsl_spend_1_1 -- --nocapture
+  198  cargo test test_dsl_spend_1_1 -- --nocapture
+  199  cargo test test_dsl_spend_1_1 -- --nocapture
+  200  cargo test test_dsl_spend_1_1 -- --nocapture
+  201  cargo test test_dsl_spend_1_1 -- --nocapture
+  202  cargo test test_dsl_spend_1_1 -- --nocapture
+  203  cargo test test_dsl_spend_1_1 -- --nocapture
+  204  cargo test test_dsl_spend_1_1 -- --nocapture
+  205  cargo test test_dsl_spend_1_1 -- --nocapture
+  206  cargo test test_dsl_spend_1_1 -- --nocapture
+  207  cargo test test_dsl_spend_1_1 -- --nocapture
+  208  cargo test test_dsl_spend_1_1 -- --nocapture
+  209  cargo test test_dsl_spend_1_1 -- --nocapture
+  210  cargo test test_dsl_spend_1_1 -- --nocapture
+  211  cargo test test_dsl_spend_1_1 -- --nocapture
+  212  cargo test test_dsl_spend_1_1 -- --nocapture
+  213  cargo test test_dsl_spend_1_1 -- --nocapture
+  214  cargo test test_dsl_spend_1_1 -- --nocapture
+  215  cargo test test_dsl_spend_1_1 -- --nocapture
+  216  cargo test test_dsl_spend_1_1 -- --nocapture
+  217  cargo test test_dsl_spend_1_1 -- --nocapture
+  218  cargo test test_dsl_spend_1_1 -- --nocapture
+  219  cargo test test_dsl_spend_1_1 -- --nocapture
+  220  cargo test test_dsl_spend_1_1 -- --nocapture
+  221  cargo test test_dsl_spend_1_1 -- --nocapture
+  222  cargo test test_dsl_spend_1_1 -- --nocapture
+  223  cargo test test_dsl_spend_1_1 -- --nocapture
+  224  cargo test test_dsl_spend_1_1 -- --nocapture
+  225  cargo test test_dsl_spend_1_1 -- --nocapture
+  226  cargo test test_dsl_spend_1_1 -- --nocapture
+  227  cargo test test_dsl_spend_1_1 -- --nocapture
+  228  cargo test test_dsl_spend_1_1 -- --nocapture
+  229  cargo test test_dsl_spend_1_1 -- --nocapture
+  230  cargo test test_dsl_spend_1_1 -- --nocapture
+  231  cargo test test_dsl_spend_1_1 -- --nocapture
+  232  cd ..
+  233  cd ..
+  234  git clone https://github.com/twilight-project/TVM.git
+  235  ls
+  236  cd TVM
+  237  cargo run
+  238  cargo run
+  239  cargo test
+  240  rustc --version
+  241  rustc default stable
+  242  rustc stable
+  243  rustc stable
+  244  rustc default stable
+  245  rustup default stable
+  246  cargo test
+  247  cargo test
+  248  cargo test
+  249  cargo test
+  250  cargo test
+  251  cargo test test_order_msg_verify -- --nocapture
+  252  cargo test test_verify_order_msg -- --nocapture
+  253  cargo test test_verify_order_msg -- --nocapture
+  254  cd twilight
+  255  cargo test test_verify_order_msg -- --nocapture
+  256  cargo test test_verify_order_msg -- --nocapture
+  257  cargo test test_verify_order_msg -- --nocapture
+  258  cargo run
+  259  cargo test test_verify_order_msg -- --nocapture
+  260  cargo test test_verify_order_msg -- --nocapture
+  261  cd ..
+  262  git pull
+  263  git branch
+  264  git stash
+  265  git pull origin
+  266  git stash pop
+  267  cd twilight/
+  268  cargo test test_verify_order_msg -- --nocapture
+  269  cargo test test_verify_order_msg -- --nocapture
+  270  cargo test test_verify_order_msg -- --nocapture
+  271  cargo test test_verify_order_msg -- --nocapture
+  272  cargo test test_verify_order_msg -- --nocapture
+  273  cargo test test_verify_order_msg -- --nocapture
+  274  cargo test test_verify_order_msg -- --nocapture
+  275  cargo test test_verify_order_msg -- --nocapture
+  276  cargo test test_verify_order_msg -- --nocapture
+  277  cargo test test_verify_order_msg -- --nocapture
+  278  cargo test test_verify_order_msg -- --nocapture
+  279  cargo test test_verify_order_msg -- --nocapture
+  280  cargo test test_verify_order_msg -- --nocapture
+  281  cargo test test_verify_order_msg -- --nocapture
+  282  cargo test test_verify_order_msg -- --nocapture
+  283  cargo test test_verify_order_msg -- --nocapture
+  284  cd tests
+  285  ls
+  286  cd src
+  287  ls
+  288  cd tests
+  289  cargo test test_verify_order_msg -- --nocapture
+  290  cd tests
+  291  cd ..
+  292  cd ..
+  293  cargo test test_verify_order_msg -- --nocapture
+  294  cargo test test_verify_order_msg -- --nocapture
+  295  cd ..
+  296  git branch convenant
+  297  git checkout convenant
+  298  git checkout convenant
+  299  git commit
+  300  git branch
+  301  git checkout convenant
+  302  git branch
+  303  cargo test test_verify_order_msg -- --nocapture
+  304  cargo test test_verify_order_msg -- --nocapture
+  305  git checkout main
+  306  git stash
+  307  git checkout main
+  308  git branch -d convenant
+  309  git branch
+  310  ls
+  311  cd zkvm
+  312  cd tests
+  313  ls
+  314  nano zkvm.rs 
+  315  git branch -b convenant
+  316  git checkout -b convenant
+  317  cd zkvm/tests
+  318  ls
+  319  nano zkvm.rs 
+  320  cargo test test_verify_order_msg -- --nocapture
+  321  cd ..
+  322  cd ..
+  323  cd twilight/
+  324  ls
+  325  cargo test test_verify_order_msg -- --nocapture
+  326  cargo test test_verify_order_msg -- --nocapture
+  327  cargo test test_verify_order_msg -- --nocapture
+  328  cargo test test_verify_order_msg -- --nocapture
+  329  cargo test test_verify_order_msg -- --nocapture
+  330  cargo test
+  331  cargo test
+  332  cargo test test_verify_order_msg -- --nocapture
+  333  cargo test test_verify_order_msg -- --nocapture
+  334  cargo test test_verify_order_msg -- --nocapture
+  335  cargo test test_verify_order_msg -- --nocapture
+  336  cargo test test_verify_order_msg -- --nocapture
+  337  cargo test test_verify_order_msg -- --nocapture
+  338  cargo test test_verify_order_msg -- --nocapture
+  339  cargo test test_verify_order_msg -- --nocapture
+  340  cargo test test_verify_order_msg -- --nocapture
+  341  cargo test test_verify_order_msg -- --nocapture
+  342  cargo test test_verify_order_msg -- --nocapture
+  343  cargo test test_verify_order_msg -- --nocapture
+  344  cargo test test_verify_order_msg -- --nocapture
+  345  cargo test test_verify_order_msg -- --nocapture
+  346  cargo test test_verify_order_msg -- --nocapture
+  347  cargo test test_verify_order_msg -- --nocapture
+  348  cargo test test_verify_order_msg -- --nocapture
+  349  cargo test test_verify_order_msg -- --nocapture
+  350  cargo test test_verify_order_msg -- --nocapture
+  351  cargo test test_verify_order_msg -- --nocapture
+  352  cargo test test_verify_order_msg -- --nocapture
+  353  cargo test test_verify_order_msg -- --nocapture
+  354  cd ..
+  355  ls
+  356  ls
+  357  git clone https://github.com/stellar/slingshot.git
+  358  cd slingshot/
+  359  git pull
+  360  git checkout
+  361  git branch
+  362  git branch -a
+  363  git checkout paychan
+  364  git branch
+  365  git checkout paychan
+  366  git checkout oleg/paychan
+  367  git branch
+  368  cargo build
+  369  cargo build
+  370  rustup install nightly-2020-05-15
+  371  rustup
+  372  rustup nightly
+  373  rustup default nightly
+  374  rustup defaul 1.45.0-nightly
+  375  rustup default 1.45.0-nightly
+  376  rustup default nightly-2020-05-15-x86_64-apple-darwin
+  377  rustup --version
+  378  cargo install diesel_cli --no-default-features --features "sqlite-bundled"
+  379  diesel database reset
+  380  ROCKET_PORT=8000 cargo run
+  381  diesel database reset
+  382  diesel database
+  383  diesel database setup
+  384  diesel database setup
+  385  cargo install diesel_cli --no-default-features --features "sqlite-bundled"
+  386  cargo install diesel_cli --no-default-features --features "sqlite-bundled" --force
+  387  rustup which rustup
+  388  which rustup
+  389  rust --version
+  390  rustup --version
+  391  rustc --version
+  392  rustup install nightly-2020-05-15
+  393  rustup default stable
+  394  rustup install nightly-2020-05-15
+  395  rustup default nightly-2020-05-15-x86_64-apple-darwin
+  396  rustc --version
+  397  rustup default stable
+  398  rustc --version
+  399  rustup default nightly-2020-05-15-x86_64-apple-darwin
+  400  rustc --version
+  401  cargo install diesel_cli --no-default-features --features "sqlite-bundled"
+  402  diesel database
+  403  diesel database help
+  404  diesel database reset
+  405  diesel database setup
+  406  ls
+  407  cd demo
+  408  diesel database reset
+  409  ROCKET_PORT=8000 cargo run
+  410  cd ..
+  411  cd ..
+  412  ;s
+  413  ls
+  414  cd hammadtq/
+  415  ls
+  416  cd TV
+  417  cd TVM
+  418  ls
+  419  cargo run
+  420  cd zkvm
+  421  cargo test
+  422  cargo test
+  423  cargo test
+  424  cargo test
+  425  cargo test
+  426  cargo test
+  427  cargo test
+  428  cargo test
+  429  cargo test
+  430  cargo test test_dsl_state
+  431  cd ..
+  432  cd ..
+  433  ls
+  434  cd slingshot/
+  435  ls
+  436  cd zkvm
+  437  ls
+  438  cargo test test_dsl_state
+  439  ls
+  440  cd src
+  441  ls
+  442  cargo test test_dsl_state
+  443  cargo test test_dsl_state
+  444  cargo test test_dsl_state
+  445  cargo test test_dsl_state
+  446  cargo test test_dsl_state
+  447  cargo test test_dsl_state
+  448  cargo test test_dsl_state
+  449  cargo test test_dsl_state
+  450  cargo test test_dsl_state
+  451  cargo test test_dsl_state
+  452  cargo test test_dsl_statecargo test -- --color always --nocapture
+  453  cargo test test_dsl_statecargo test -- --color always --nocapture
+  454  cargo test test_dsl_state--color always --nocapture
+  455  cargo test test_dsl_state --color always --nocapture
+  456  cargo test test_dsl_state --nocapture
+  457  cargo test test_dsl_state
+  458  cargo test test_dsl_state --nocapture
+  459  cargo test -- --nocapture
+  460  cargo test test_dsl_state --nocapture
+  461  cargo test test_dsl_state --no-capture
+  462  --help
+  463  cargo --help
+  464  cargo test test_dsl_state --nocapture
+  465  cargo test test_dsl_statecargo test -- --nocapture
+  466  cargo test test_dsl_state-- --nocapture
+  467  cargo test test_dsl_state -- --nocapture
+  468  cargo test test_dsl_state -- --nocapture
+  469  cargo test test_dsl_state -- --nocapture
+  470  cargo test test_dsl_state -- --nocapture
+  471  cargo test test_dsl_state -- --nocapture
+  472  cargo test test_dsl_state -- --nocapture
+  473  cargo test test_dsl_state -- --nocapture
+  474  cargo test test_dsl_state -- --nocapture
+  475  cargo test test_dsl_state -- --nocapture
+  476  cargo test test_dsl_state -- --nocapture
+  477  cargo test test_dsl_state -- --nocapture
+  478  cargo test test_dsl_state -- --nocapture
+  479  cargo test test_dsl_state -- --nocapture
+  480  cargo test test_dsl_state -- --nocapture
+  481  cargo test test_dsl_state -- --nocapture
+  482  cargo test test_dsl_state -- --nocapture
+  483  cargo test test_dsl_state -- --nocapture
+  484  cargo test test_dsl_state -- --nocapture
+  485  cargo test test_dsl_state -- --nocapture
+  486  cargo test test_dsl_state -- --nocapture
+  487  cargo test test_dsl_state -- --nocapture
+  488  ls
+  489  cd go
+  490  cd src
+  491  ls
+  492  cd github.com/
+  493  ls
+  494  cd hammadtq/
+  495  ls
+  496  cd nomic
+  497  touch .gitignore
+  498  nano .gitignore 
+  499  /Users/hammadtariq/go/src/github.com/hammadtq/bitcoin/src/bitcoind ; exit;
+  500  /Users/hammadtariq/go/src/github.com/hammadtq/bitcoin/src/bitcoind ; exit;
+  501  ls
+  502  cd go
+  503  cd src
+  504  cd github.com/hammadtq/
+  505  ls
+  506  curl https://get.starport.com/starport! | bash
+  507  ls
+  508  mkdir starport
+  509  cd starport/
+  510  curl https://get.starport.com/starport! | bash
+  511  ls
+  512  cd ..
+  513  starport version
+  514  rm -r starport/
+  515  starport scaffold chain github.com/twilight-project/twilight
+  516  cd twilight
+  517  ls
+  518  starport chain serve
+  519  cd ..
+  520  cd validity-gadget/
+  521  cd validity-gadget-chain/
+  522  cd vude
+  523  cd vue
+  524  npm install
+  525  npm run serve
+  526  cd ..
+  527  starport chain serve
+  528  starport chain serve
+  529  ls
+  530  cd app
+  531  ls
+  532  cd ..
+  533  cd ~./simapp/config/app.toml
+  534  find . -name "app.toml" -print
+  535  starport chain serve
+  536  starport scaffold message --help
+  537  starport scaffold message SnapshotProposal Propose Iteration LogSnap
+  538  starport scaffold message createPost title body
+  539  git checkout -f && git clean -fd
+  540  ls
+  541  starport scaffold message SnapshotProposal Iteration LogSnap
+  542  starport chain serve
+  543  starport chain serve
+  544  starport chain serve
+  545  starport chain serve
+  546  ls
+  547  nano config.yml 
+  548  ls
+  549  nano config.yml 
+  550  starport chain serve
+  551  starport chain serve --reset-once
+  552  starport scaffold query snapshot_proposals --response iteration,logsnap
+  553  starport chain serve
+  554  starport chain serve
+  555  starport chain serve
+  556  history > history.txt

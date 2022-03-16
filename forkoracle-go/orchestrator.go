@@ -9,13 +9,12 @@ import (
 )
 
 func orchestrator() {
-	tick := time.Tick(50000 * time.Millisecond)
+	tick := time.Tick(5000 * time.Millisecond)
 	for range tick {
 		fmt.Println("Tick")
 		chaintip := get_active_chaintip()
 		send_transaction((chaintip))
 	}
-
 }
 
 func get_active_chaintip() *ChainTip {

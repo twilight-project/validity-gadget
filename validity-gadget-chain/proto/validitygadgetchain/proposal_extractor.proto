@@ -1,0 +1,9 @@
+syntax = "proto3";
+package twilightproject.validitygadgetchain.validitygadgetchain;
+option go_package = "github.com/twilight-project/validity-gadget-chain/x/validitygadgetchain/types";
+
+message ProposalExtractor {
+    bool                observed = 1;
+    repeated string     votes    = 2;
+    uint64              height   = 3;
+  }

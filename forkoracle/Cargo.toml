@@ -7,6 +7,11 @@ edition = "2018"
 
 [dependencies]
 forkscanner = { git = "https://github.com/twilight-project/forkscanner" }
+cosmrs = {git = "https://github.com/cosmos/cosmos-rust"}
+deep_space = "2.9.0"
+cosmos-sdk-proto = {package = "cosmos-sdk-proto-althea", version = "^0.10.0"}
+tokio = "1.17.0"
+tokio-test = "0.4.2"
 dotenv = "0.15"
 log = "0.4"
 diesel = { version = "1.4", features = ["chrono", "postgres"] }

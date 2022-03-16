@@ -4,11 +4,12 @@ import { SpVuexError } from '@starport/vuex'
 
 import { Params } from "./module/types/validitygadgetchain/params"
 import { Proposal } from "./module/types/validitygadgetchain/proposal"
+import { ProposalExtractor } from "./module/types/validitygadgetchain/proposal_extractor"
 import { QuerySnapshotProposalRequest } from "./module/types/validitygadgetchain/query"
 import { QuerySnapshotProposalResponse } from "./module/types/validitygadgetchain/query"
 
 
-export { Params, Proposal, QuerySnapshotProposalRequest, QuerySnapshotProposalResponse };
+export { Params, Proposal, ProposalExtractor, QuerySnapshotProposalRequest, QuerySnapshotProposalResponse };
 
 async function initTxClient(vuexGetters) {
 	return await txClient(vuexGetters['common/wallet/signer'], {
@@ -52,6 +53,7 @@ const getDefaultState = () => {
 				_Structure: {
 						Params: getStructure(Params.fromPartial({})),
 						Proposal: getStructure(Proposal.fromPartial({})),
+						ProposalExtractor: getStructure(ProposalExtractor.fromPartial({})),
 						QuerySnapshotProposalRequest: getStructure(QuerySnapshotProposalRequest.fromPartial({})),
 						QuerySnapshotProposalResponse: getStructure(QuerySnapshotProposalResponse.fromPartial({})),
 						
