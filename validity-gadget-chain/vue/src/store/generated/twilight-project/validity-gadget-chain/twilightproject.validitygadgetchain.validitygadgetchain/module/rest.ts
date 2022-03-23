@@ -83,6 +83,8 @@ export interface V1Beta1PageResponse {
   total?: string;
 }
 
+export type ValiditygadgetchainMsgSetDelegateAddressesResponse = object;
+
 export interface ValiditygadgetchainMsgSnapshotProposalResponse {
   /** @format uint64 */
   id?: string;

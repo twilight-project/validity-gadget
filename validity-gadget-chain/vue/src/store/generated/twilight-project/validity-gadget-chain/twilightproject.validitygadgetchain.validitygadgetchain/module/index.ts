@@ -4,10 +4,12 @@ import { StdFee } from "@cosmjs/launchpad";
 import { SigningStargateClient } from "@cosmjs/stargate";
 import { Registry, OfflineSigner, EncodeObject, DirectSecp256k1HdWallet } from "@cosmjs/proto-signing";
 import { Api } from "./rest";
+import { MsgSetDelegateAddresses } from "./types/validitygadgetchain/tx";
 import { MsgSnapshotProposal } from "./types/validitygadgetchain/tx";
 
 
 const types = [
+  ["/twilightproject.validitygadgetchain.validitygadgetchain.MsgSetDelegateAddresses", MsgSetDelegateAddresses],
   ["/twilightproject.validitygadgetchain.validitygadgetchain.MsgSnapshotProposal", MsgSnapshotProposal],
   
 ];
@@ -41,6 +43,7 @@ const txClient = async (wallet: OfflineSigner, { addr: addr }: TxClientOptions =
 
   return {
     signAndBroadcast: (msgs: EncodeObject[], { fee, memo }: SignAndBroadcastOptions = {fee: defaultFee, memo: ""}) => client.signAndBroadcast(address, msgs, fee,memo),
+    msgSetDelegateAddresses: (data: MsgSetDelegateAddresses): EncodeObject => ({ typeUrl: "/twilightproject.validitygadgetchain.validitygadgetchain.MsgSetDelegateAddresses", value: MsgSetDelegateAddresses.fromPartial( data ) }),
     msgSnapshotProposal: (data: MsgSnapshotProposal): EncodeObject => ({ typeUrl: "/twilightproject.validitygadgetchain.validitygadgetchain.MsgSnapshotProposal", value: MsgSnapshotProposal.fromPartial( data ) }),
     
   };

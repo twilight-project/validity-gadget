@@ -8,6 +8,7 @@ option go_package = "github.com/twilight-project/validity-gadget-chain/x/validit
 // Msg defines the Msg service.
 service Msg {
       rpc SnapshotProposal(MsgSnapshotProposal) returns (MsgSnapshotProposalResponse);
+  rpc SetDelegateAddresses(MsgSetDelegateAddresses) returns (MsgSetDelegateAddressesResponse);
 // this line is used by starport scaffolding # proto/tx/rpc
 }
 
@@ -19,6 +20,17 @@ message MsgSnapshotProposal {
 
 message MsgSnapshotProposalResponse {
   uint64 id = 1;
+}
+
+message MsgSetDelegateAddresses {
+  string creator = 1;
+  string validator = 2;
+  string btc_oracle = 3;
+  string eth_oracle = 4;
+  string watch_tower = 5;
+}
+
+message MsgSetDelegateAddressesResponse {
 }
 
 // this line is used by starport scaffolding # proto/tx/message

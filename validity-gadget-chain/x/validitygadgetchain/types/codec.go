@@ -9,12 +9,16 @@ import (
 
 func RegisterCodec(cdc *codec.LegacyAmino) {
 	cdc.RegisterConcrete(&MsgSnapshotProposal{}, "validitygadgetchain/SnapshotProposal", nil)
+	cdc.RegisterConcrete(&MsgSetDelegateAddresses{}, "validitygadgetchain/SetDelegateAddresses", nil)
 	// this line is used by starport scaffolding # 2
 }
 
 func RegisterInterfaces(registry cdctypes.InterfaceRegistry) {
 	registry.RegisterImplementations((*sdk.Msg)(nil),
 		&MsgSnapshotProposal{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgSetDelegateAddresses{},
 	)
 	// this line is used by starport scaffolding # 3
 

@@ -20090,6 +20090,8 @@ definitions:
       and
 
       freezing clients
+  twilightproject.validitygadgetchain.validitygadgetchain.MsgSetDelegateAddressesResponse:
+    type: object
   twilightproject.validitygadgetchain.validitygadgetchain.MsgSnapshotProposalResponse:
     type: object
     properties:
