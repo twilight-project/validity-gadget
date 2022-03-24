@@ -154,27 +154,27 @@ export const MsgSnapshotProposalResponse = {
 };
 const baseMsgSetDelegateAddresses = {
     creator: "",
-    validator: "",
-    btcOracle: "",
-    ethOracle: "",
-    watchTower: "",
+    validatorAddress: "",
+    orchestratorAddress: "",
+    ethAddress: "",
+    btcPublicKey: "",
 };
 export const MsgSetDelegateAddresses = {
     encode(message, writer = Writer.create()) {
         if (message.creator !== "") {
             writer.uint32(10).string(message.creator);
         }
-        if (message.validator !== "") {
-            writer.uint32(18).string(message.validator);
+        if (message.validatorAddress !== "") {
+            writer.uint32(18).string(message.validatorAddress);
         }
-        if (message.btcOracle !== "") {
-            writer.uint32(26).string(message.btcOracle);
+        if (message.orchestratorAddress !== "") {
+            writer.uint32(26).string(message.orchestratorAddress);
         }
-        if (message.ethOracle !== "") {
-            writer.uint32(34).string(message.ethOracle);
+        if (message.ethAddress !== "") {
+            writer.uint32(34).string(message.ethAddress);
         }
-        if (message.watchTower !== "") {
-            writer.uint32(42).string(message.watchTower);
+        if (message.btcPublicKey !== "") {
+            writer.uint32(42).string(message.btcPublicKey);
         }
         return writer;
     },
@@ -191,16 +191,16 @@ export const MsgSetDelegateAddresses = {
                     message.creator = reader.string();
                     break;
                 case 2:
-                    message.validator = reader.string();
+                    message.validatorAddress = reader.string();
                     break;
                 case 3:
-                    message.btcOracle = reader.string();
+                    message.orchestratorAddress = reader.string();
                     break;
                 case 4:
-                    message.ethOracle = reader.string();
+                    message.ethAddress = reader.string();
                     break;
                 case 5:
-                    message.watchTower = reader.string();
+                    message.btcPublicKey = reader.string();
                     break;
                 default:
                     reader.skipType(tag & 7);
@@ -219,39 +219,44 @@ export const MsgSetDelegateAddresses = {
         else {
             message.creator = "";
         }
-        if (object.validator !== undefined && object.validator !== null) {
-            message.validator = String(object.validator);
+        if (object.validatorAddress !== undefined &&
+            object.validatorAddress !== null) {
+            message.validatorAddress = String(object.validatorAddress);
         }
         else {
-            message.validator = "";
+            message.validatorAddress = "";
         }
-        if (object.btcOracle !== undefined && object.btcOracle !== null) {
-            message.btcOracle = String(object.btcOracle);
-        }
-        else {
-            message.btcOracle = "";
-        }
-        if (object.ethOracle !== undefined && object.ethOracle !== null) {
-            message.ethOracle = String(object.ethOracle);
+        if (object.orchestratorAddress !== undefined &&
+            object.orchestratorAddress !== null) {
+            message.orchestratorAddress = String(object.orchestratorAddress);
         }
         else {
-            message.ethOracle = "";
+            message.orchestratorAddress = "";
         }
-        if (object.watchTower !== undefined && object.watchTower !== null) {
-            message.watchTower = String(object.watchTower);
+        if (object.ethAddress !== undefined && object.ethAddress !== null) {
+            message.ethAddress = String(object.ethAddress);
         }
         else {
-            message.watchTower = "";
+            message.ethAddress = "";
+        }
+        if (object.btcPublicKey !== undefined && object.btcPublicKey !== null) {
+            message.btcPublicKey = String(object.btcPublicKey);
+        }
+        else {
+            message.btcPublicKey = "";
         }
         return message;
     },
     toJSON(message) {
         const obj = {};
         message.creator !== undefined && (obj.creator = message.creator);
-        message.validator !== undefined && (obj.validator = message.validator);
-        message.btcOracle !== undefined && (obj.btcOracle = message.btcOracle);
-        message.ethOracle !== undefined && (obj.ethOracle = message.ethOracle);
-        message.watchTower !== undefined && (obj.watchTower = message.watchTower);
+        message.validatorAddress !== undefined &&
+            (obj.validatorAddress = message.validatorAddress);
+        message.orchestratorAddress !== undefined &&
+            (obj.orchestratorAddress = message.orchestratorAddress);
+        message.ethAddress !== undefined && (obj.ethAddress = message.ethAddress);
+        message.btcPublicKey !== undefined &&
+            (obj.btcPublicKey = message.btcPublicKey);
         return obj;
     },
     fromPartial(object) {
@@ -264,29 +269,31 @@ export const MsgSetDelegateAddresses = {
         else {
             message.creator = "";
         }
-        if (object.validator !== undefined && object.validator !== null) {
-            message.validator = object.validator;
+        if (object.validatorAddress !== undefined &&
+            object.validatorAddress !== null) {
+            message.validatorAddress = object.validatorAddress;
         }
         else {
-            message.validator = "";
+            message.validatorAddress = "";
         }
-        if (object.btcOracle !== undefined && object.btcOracle !== null) {
-            message.btcOracle = object.btcOracle;
-        }
-        else {
-            message.btcOracle = "";
-        }
-        if (object.ethOracle !== undefined && object.ethOracle !== null) {
-            message.ethOracle = object.ethOracle;
+        if (object.orchestratorAddress !== undefined &&
+            object.orchestratorAddress !== null) {
+            message.orchestratorAddress = object.orchestratorAddress;
         }
         else {
-            message.ethOracle = "";
+            message.orchestratorAddress = "";
         }
-        if (object.watchTower !== undefined && object.watchTower !== null) {
-            message.watchTower = object.watchTower;
+        if (object.ethAddress !== undefined && object.ethAddress !== null) {
+            message.ethAddress = object.ethAddress;
         }
         else {
-            message.watchTower = "";
+            message.ethAddress = "";
+        }
+        if (object.btcPublicKey !== undefined && object.btcPublicKey !== null) {
+            message.btcPublicKey = object.btcPublicKey;
+        }
+        else {
+            message.btcPublicKey = "";
         }
         return message;
     },

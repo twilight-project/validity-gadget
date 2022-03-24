@@ -10,10 +10,10 @@ export interface MsgSnapshotProposalResponse {
 }
 export interface MsgSetDelegateAddresses {
     creator: string;
-    validator: string;
-    btcOracle: string;
-    ethOracle: string;
-    watchTower: string;
+    validatorAddress: string;
+    orchestratorAddress: string;
+    ethAddress: string;
+    btcPublicKey: string;
 }
 export interface MsgSetDelegateAddressesResponse {
 }

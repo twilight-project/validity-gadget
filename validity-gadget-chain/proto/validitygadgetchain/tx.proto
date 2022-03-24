@@ -24,10 +24,10 @@ message MsgSnapshotProposalResponse {
 
 message MsgSetDelegateAddresses {
   string creator = 1;
-  string validator = 2;
-  string btc_oracle = 3;
-  string eth_oracle = 4;
-  string watch_tower = 5;
+  string validator_address = 2;
+  string orchestrator_address = 3;
+  string eth_address = 4;
+  string btc_public_key = 5;
 }
 
 message MsgSetDelegateAddressesResponse {

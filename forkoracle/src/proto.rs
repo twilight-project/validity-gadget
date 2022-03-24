@@ -11,13 +11,13 @@
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct MsgSetDelegateAddresses {
     #[prost(string, tag="1")]
-    pub validator: ::prost::alloc::string::String,
+    pub validator_address: ::prost::alloc::string::String,
     #[prost(string, tag="2")]
-    pub btc_oracle: ::prost::alloc::string::String,
+    pub orchestrator_address: ::prost::alloc::string::String,
     #[prost(string, tag="3")]
-    pub eth_oracle: ::prost::alloc::string::String,
+    pub eth_address: ::prost::alloc::string::String,
     #[prost(string, tag="4")]
-    pub watch_tower: ::prost::alloc::string::String,
+    pub btc_public_key: ::prost::alloc::string::String,
 }
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct MsgSetDelegateAddressesResponse {
